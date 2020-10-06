@@ -14,17 +14,26 @@ The work flow is as follows -
 ## Encoder Decoder Model
 The encoder-decoder model is a way of using recurrent neural networks for sequence-to-sequence prediction problems.
 The approach involves two recurrent neural networks, one to encode the input sequence, called the encoder, and a second to decode the encoded input sequence into the target sequence called the decoder.
+The pretrained model is available in the code section
+
 ![img](https://github.com/gd1m3y/Neural-Machine-Translation/blob/master/1_1JcHGUU7rFgtXC_mydUA_Q.jpeg)
 
 ## Dataset Used
 The Dataset used is englishHindicorpora-
 https://www.kaggle.com/aiswaryaramachandran/hindienglish-corpora
 Which Consists of Pairs of hindi and English sentences.
+
+## Results 
+These are some of the results of the notebook - 
+![img](https://github.com/gd1m3y/Neural-Machine-Translation/blob/master/1.png)
+![img](https://github.com/gd1m3y/Neural-Machine-Translation/blob/master/2.png)
+![img](https://github.com/gd1m3y/Neural-Machine-Translation/blob/master/3.png)
+![img](https://github.com/gd1m3y/Neural-Machine-Translation/blob/master/4.png)
+
 ## Tech Stack
 * Numpy - To perform Scientific mathetatics 
 * Tensorflow 2.x - A deep learning library 
 * Pandas - For manipulating data
-
 ## To dos
 * Improve model performance by using more training examples 
 * Implement Attention mechanism for better performance
