@@ -4,7 +4,8 @@ This project focuses on Solving Sequence-to-Sequence problem of Machine translat
 
 # Work Flow
 
-![image]()
+![image](https://github.com/gd1m3y/Neural-Machine-Translation/blob/master/NMT.png)
+
 The work flow is as follows - 
 * Preprocessing  - The inputs are converted into suitable format along with a  start and end token so that it can be fed to the encoder.
 * Encoder - This is the initial part of the Encoder decoder structure where the networks learn to predict the initial texts and weights are updated.
@@ -13,7 +14,7 @@ The work flow is as follows -
 ## Encoder Decoder Model
 The encoder-decoder model is a way of using recurrent neural networks for sequence-to-sequence prediction problems.
 The approach involves two recurrent neural networks, one to encode the input sequence, called the encoder, and a second to decode the encoded input sequence into the target sequence called the decoder.
-![img]()
+![img](https://github.com/gd1m3y/Neural-Machine-Translation/blob/master/1_1JcHGUU7rFgtXC_mydUA_Q.jpeg)
 
 ## Dataset Used
 The Dataset used is englishHindicorpora-
